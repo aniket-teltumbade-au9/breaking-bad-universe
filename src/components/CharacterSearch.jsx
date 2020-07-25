@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import { throttle } from "lodash";
-import { characterSearch } from "../redux/actions/charactersActions";
 import { withRouter } from "react-router-dom";
 
 class CharacterSearch extends Component {
